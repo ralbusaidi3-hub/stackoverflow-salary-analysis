@@ -1,0 +1,4 @@
+data/*.csv
+!data/survey_results_schema.csv
+.ipynb_checkpoints/
+__pycache__/
