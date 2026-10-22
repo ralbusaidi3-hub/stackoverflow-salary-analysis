@@ -1,6 +1,6 @@
 # Where You Live Matters More Than Your Degree: What 16,000 Developers Reveal About Pay
 
-![Cover image: add a photo of a developer at work here, for example a free one from unsplash.com]()
+![Cover image showing median yearly developer salary by country, from India at $18k to the USA at $149k](cover_image.png)
 
 Every year, Stack Overflow asks tens of thousands of software developers about their work and their pay. I studied the 2024 survey, focusing on almost 16,000 full-time professional developers who shared their salary, to answer one big question: **what actually drives a developer's pay?**
 
@@ -15,7 +15,7 @@ I broke it into four smaller questions:
 
 Yes, steadily. The typical developer with 0 to 2 years of experience earns about **$36,000** a year. By 6 to 10 years that roughly doubles to **$74,000**, and after 20 years it reaches about **$109,000**.
 
-![Salary by experience](images/q1_experience.png)
+![Bar chart of median developer salary by years of professional experience](q1_experience.png)
 
 The biggest gains come in the first ten years of a career.
 
@@ -23,7 +23,7 @@ The biggest gains come in the first ten years of a career.
 
 Remote developers report the highest typical pay (**$82,000**), followed by hybrid (**$71,000**) and fully in-office (**$48,000**).
 
-![Salary by work situation](images/q2_remote.png)
+![Bar chart of median developer salary for remote, hybrid and in-person work](q2_remote.png)
 
 You might think this is only because remote workers live in richer countries, but the gap holds inside the same country too. In the USA, remote developers earn around $155,000, compared with $112,000 for in-office developers. One caution: this shows that remote work and higher pay go together, not that going remote will *give* you a raise.
 
@@ -31,7 +31,7 @@ You might think this is only because remote workers live in richer countries, bu
 
 More than anything else. A typical developer in the USA earns about **$149,000**, roughly double Germany ($75,000) and about **eight times** India ($18,000).
 
-![Salary by country](images/q3_country.png)
+![Bar chart of median developer salary in the 20 largest survey countries](q3_country.png)
 
 These figures are in US dollars and don't account for living costs, but the gap is striking.
 
@@ -39,7 +39,7 @@ These figures are in US dollars and don't account for living costs, but the gap 
 
 I trained a computer model on seven facts about each developer: country, experience, job type, education, company size, age and work arrangement. It correctly guessed whether someone earns above or below the middle salary ($70,000) **83% of the time**, where a coin flip would manage 50%.
 
-![What matters most](images/q4_importance.png)
+![Chart of which factors matter most for predicting an above-median salary](q4_importance.png)
 
 **Country came first by a wide margin, then experience.** Education level mattered least of all.
 
@@ -49,4 +49,4 @@ To test it, I imagined *Sara*, a back-end developer in Germany with 4 years of e
 
 Where you work, and how, shapes developer pay far more than your degree. Experience still pays, but if you want to grow your income, explore remote roles and companies in higher-paying markets.
 
-*The full analysis and code are on GitHub: add your repository link here.*
+*The full analysis and code are on GitHub: https://github.com/ralbusaidi3-hub/stackoverflow-salary-analysis*

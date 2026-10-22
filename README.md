@@ -31,6 +31,7 @@ pip install -r requirements.txt
 |---|---|
 | `stackoverflow_salary_analysis.ipynb` | Main notebook with the full CRISP-DM analysis: exploration, cleaning, the three questions, model training, evaluation, and a prediction scenario. |
 | `q1_experience.png` to `q4_importance.png` | Charts produced by the notebook and used in the blog post. |
+| `cover_image.png` | Cover image for the blog post. |
 | `blog_post.md` | Draft of the non-technical blog post. |
 | `requirements.txt` | Python libraries needed to run the notebook. |
 | `survey_results_public.zip` | The 2024 survey answers (65,437 responses). Zipped from 160 MB to 17 MB to fit GitHub's limit; the notebook reads it directly. |
