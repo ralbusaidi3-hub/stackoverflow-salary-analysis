@@ -57,9 +57,7 @@ After cleaning, the analysis uses 15,787 professional developers employed full-t
 These findings are correlations, not proof of cause. Salaries are self-reported, and survey respondents are not a perfect random sample of all developers.
 
 ## Blog post
-
-Link to the published post: *add your Medium / blog link here*
-
+https://medium.com/@ralbusaidi3/where-you-live-matters-more-than-your-degree-what-16-000-developers-reveal-about-pay-a00468ed8161?sharedUserId=ralbusaidi3 
 ## Acknowledgements
 
 - Data: [Stack Overflow Annual Developer Survey 2024](https://survey.stackoverflow.co/2024/), licensed under the Open Database License (ODbL). Thanks to Stack Overflow and the 65,000+ developers who took part.
