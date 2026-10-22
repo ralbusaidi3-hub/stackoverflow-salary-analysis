@@ -30,16 +30,16 @@ pip install -r requirements.txt
 | File | Description |
 |---|---|
 | `stackoverflow_salary_analysis.ipynb` | Main notebook with the full CRISP-DM analysis: exploration, cleaning, the three questions, model training, evaluation, and a prediction scenario. |
-| `images/` | Charts produced by the notebook and used in the blog post. |
+| `q1_experience.png` to `q4_importance.png` | Charts produced by the notebook and used in the blog post. |
 | `blog_post.md` | Draft of the non-technical blog post. |
 | `requirements.txt` | Python libraries needed to run the notebook. |
-| `data/survey_results_public.zip` | The 2024 survey answers (65,437 responses). Zipped from 160 MB to 17 MB to fit GitHub's limit; the notebook reads it directly. |
-| `data/survey_results_schema.csv` | The full question text behind each column name. |
+| `survey_results_public.zip` | The 2024 survey answers (65,437 responses). Zipped from 160 MB to 17 MB to fit GitHub's limit; the notebook reads it directly. |
+| `survey_results_schema.csv` | The full question text behind each column name. |
 | `.gitignore` | Stops large unzipped data files from being uploaded by mistake. |
 
 ## How to run
 
-1. Clone or download this repository. The dataset is already included in the `data` folder.
+1. Clone or download this repository. The dataset is already included (`survey_results_public.zip` and `survey_results_schema.csv`).
 2. Install the libraries: `pip install -r requirements.txt`
 3. Open `stackoverflow_salary_analysis.ipynb` and run all cells from top to bottom.
 
